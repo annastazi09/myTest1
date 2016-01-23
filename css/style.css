@@ -1,0 +1,116 @@
+﻿body {
+    background-image: url('../img/background.jpg');
+    background-repeat: repeat;
+    margin:0 auto;
+    min-width: 400px;
+    max-width:900px;
+}
+header{
+    position: fixed;
+    width: 65%; 
+    height: 20%;
+    left: 45%;
+    top: 10%;
+    margin-left: -27%;
+    margin-top: -5%;
+}
+section{
+    background-color:Snow;
+   	position: fixed;
+    width: 65%; 
+    height: 50%;
+    left: 45%;
+    top: 30%;
+    margin-left: -27%;
+    margin-top: -5%;
+}
+footer{   
+    position: fixed;
+    background-color:Snow;
+    text-align:center;
+    width: 65%; 
+    height:30%;
+    left: 45%;
+    top: 30%;
+    margin-left: -27%;
+    margin-top: 15%;
+    border-radius:0  0 8px 8px;
+}
+.params{
+ width:100%;
+ height:100%;
+ background-size: cover;
+}
+#main{
+   background-color:Snow;
+   width:35%; height:55%;
+   float: left
+}
+input{
+   background-color:#0099FF; 
+   width:90%;
+   height:25%;
+   border-radius:20px;
+   margin-left:20px; 
+   color:white;
+   font-size:inherit;
+   text-inline:normal;
+}
+
+input:hover{
+            background: -webkit-linear-gradient(0deg, #c00000, #a30000);
+            background: -moz-linear-gradient(0deg,  #c00000, #a30000);
+            background: -ms-linear-gradient(0deg, #c00000, #a30000);
+            background: linear-gradient(0deg, #c00000, #a30000);
+
+            -pie-background: linear-gradient(0deg, #c00000, #a30000);
+            
+            behavior: url(PIE.htc);
+           
+}
+#first,#third{
+ margin-left:20px;
+}
+#second{
+  font-family:Arial;
+   font-size:inherit;
+   text-inline:normal;
+  margin-left:25px;
+}
+#code{
+  margin-left:20px;
+  float:left
+}
+#block{
+    width:35%;
+    height:70%;
+    float: left;
+    margin-left:20px
+}
+#pictures{
+    float:left;
+    margin-left:10% 
+}
+#qr{
+  float:right;
+  margin-right:20px;
+}
+#line{
+   margin-left:70px;
+   width:18%
+}
+#line_{
+   width:100%
+}
+#code_{
+    width:95%;
+    height:75%;
+}
+#text{
+    width:60%;
+    height:80%;
+}
+#qr_{
+    width:80%;
+    height:90%;
+}
